@@ -10,8 +10,9 @@ express -e withyou
 npm install --save-dev nodemon
 
 修改 package.json 的 scripts:  
-
-"scripts": {
+<pre><code>"scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   }
+</code></pre>
+
