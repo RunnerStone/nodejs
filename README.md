@@ -11,7 +11,7 @@ npm install --save-dev nodemon
 
 修改 package.json 的 scripts:  
 
-' "scripts": {
+"scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   }
